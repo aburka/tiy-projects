@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whiskey Search Results</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div id="header-container">
+      <div class="header-browse">
+        <img src="images/lgo.png" alt="Etsy Logo" class="lgo">
+        <input type="text" placeholder=" search" class="search">
+        <div class="search-button">Search</div>
+        <button class="browse-button">Browse</button>
+      </div>
+      <ul class="header-nav">
+        <li class="home">
+          <a href="https://www.etsy.com/">
+            <span class="nav-icon fa fa-home"></span>
+            <span class="text-link-title">Home</span>
+          </a>
+        </li>
+        <li class="favorites">
+          <a href="https://www.etsy.com/">
+            <span class="nav-icon fa fa-heart"></span>
+            <span class="text-link-title">Favorites</span>
+          </a>
+        </li>
+        <li class="user">
+          <a href="https://www.etsy.com/">
+            <span class="nav-icon fa fa-user"></span>
+            <span class="text-link-title">You</span>
+          </a>
+        </li>
+        <li class="cart">
+          <a href="https://www.etsy.com/">
+            <span class="nav-icon fa fa-shopping-cart"></span>
+            <span class="text-link-title">Cart</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <section>
+    <div class="container">
+      <div class="aside-container">
+        <span class="aside-titles">Show results for:</span>
+        <aside class="categories">
+          <p>All Categories</p>
+          <ul>
+              <li class="category-links"><a href="https://www.etsy.com/search/home-and-living?q=whiskey">Home & Living</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/art-and-collectibles?q=whiskey">Art & Collectibles</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/wedding?q=whiskey">Wedding</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/clothing?q=whiskey">Clothing</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/jewelry?q=whiskey">Jewelry</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/paper-and-party-supplies?q=whiskey">Paper & Party Supplies</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/accessories?q=whiskey">Accessories</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/craft-supplies-and-tools?q=whiskey">Craft Supplies & Tools</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/bags-and-purses?q=whiskey">Bags & Purses</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/bath-and-beauty?q=whiskey">Bath & Beauty</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/shoes?q=whiskey">Shoes</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/books-movies-and-music?q=whiskey">Books, Movies & Music</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/electronics-and-accessories?q=whiskey">Electronics & Accessories</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/toys-and-games?q=whiskey">Toys & Games</a></li>
+              <li class="category-links"><a href="https://www.etsy.com/search/pet-supplies?q=whiskey">Pet Supplies</a></li>
+          </ul>
+        </aside>
+        <span class="aside-titles">Refine your Results</span>
+        <aside class="filters">
+          <span class="filter-type">
+            <p>Item Type</p>
+            <a href="https://www.etsy.com/search?q=whiskey">
+              <label for="All Items">
+                <input type="radio" checked="checked">All Items
+              </label>
+            </a>
+            <a href="https://www.etsy.com/handmade?q=whiskey">
+              <label for="Handmade">
+                <input type="radio">Handmade
+              </label>
+            </a>
+            <a href="https://www.etsy.com/vintage?q=whiskey">
+              <label for="Vintage">
+                <input type="radio">Vintage
+              </label>
+            </a>
+          </span>
+          <hr>
+          <span class="filter-price">
+            <p>Price</p>
+            <input type="text" placeholder="  $ low" class="price">
+            <span>to</span>
+            <input type="text" placeholder="  $ high" class="price">
+          </span>
+          <hr>
+          <span class="filter-color">
+            <p>Filter by Color</p>
+          </span>
+          <hr>
+          <span class="filter-ordering-options">
+            <p>Ordering Options</p>
+            <a href="https://www.etsy.com/search?q=whiskey&favorites=true">
+              <label for="Favorites">
+                <input type="checkbox">In Your Favorites
+              </label>
+            </a>
+            <a href="https://www.etsy.com/search?q=whiskey&gift_card=true">
+              <label for="Gift Cards">
+                <input type="checkbox">Accepts Etsy Gift Cards
+              </label>
+            </a>
+            <a href="https://www.etsy.com/search?q=whiskey&customizable=true">
+              <label for="Customizable">
+                <input type="checkbox">Customizable
+              </label>
+            </a>
+          </span>
+          <hr>
+          <span class="filter-shop-location">
+            <p>Filter by Shop Location</p>
+            <a href="https://www.etsy.com/search?q=whiskey">
+              <label for="Anywhere">
+                <input type="radio" checked="checked">Anywhere
+              </label>
+            </a>
+            <a href="https://www.etsy.com/search?q=whiskey&locationQuery=6252001">
+              <label for="United States">
+                <input type="radio">United States
+              </label>
+            </a>
+          </span>
+          <hr>
+          <span class="filter-ship-to">
+            <p>Ship To</p>
+          </span>
+        </aside>
+      </div>
+      <article class="results">
+        <ul class="listing">
+        </ul>
+      </article>
+    </div>
+  </section>
+<footer>
+  <div class="subscribe">Get top trends and fresh editors' picks in your inbox with Etsy Finds.
+    <a href=""></a><button class="email-subscribe-button">Subscribe</button>
+  </div>
+  <div class="footer-nav">
+    <div class="footer-nav-column">
+      <p>Turn your passion into a Business</p>
+      <p>Sell on Etsy</p>
+      <p>Seller Handbook</p>
+      <p>Etsy Credit Card Reader</p>
+    </div>
+    <div class="footer-nav-column">
+      <p>Join the Community</p>
+      <p>Teams</p>
+      <p>Forums</p>
+      <p>Upcoming Events</p>
+    </div>
+    <div class="footer-nav-column">
+      <p>Discover and Shop</p>
+      <p>Gift Cards</p>
+      <p>Blog</p>
+      <p>Tastemakers</p>
+    </div>
+    <div class="footer-nav-column">
+      <p>Get to know us</p>
+      <p>About</p>
+      <p>Careers</p>
+      <p>Developers</p>
+    </div>
+    <div class="footer-nav-column">
+      <p>Follow Us</p>
+      <p>Facebook</p>
+      <p>Twitter</p>
+      <p>Instagram</p>
+    </div>
+  </div>
+  <div class="copyright">
+    <ul>
+      <li>Copyright Etsy</li>
+      <li>Terms</li>
+      <li>Privacy</li>
+      <li>Copyright</li>
+      <li>Ads and Stuff</li>
+    </ul>
+  </div>
+</footer>
+<script id="listing-template" type="text/x-handlebars-template">
+  <li class="listing-card">
+    <a href="{{url}}"><img src="{{Images.0.url_170x135}}"></a>
+    <span class="card-info-row">
+     <p class="listing-title"><a href="{{url}}">{{title}}</a></p>
+    </span>
+    <span class="card-info-row">
+      <p class="listing-shop"><a href="{{Shop.url}}">{{Shop.shop_name}}</a></p>
+      <p class="listing-price">{{price}} {{currency_code}}</p>
+    </span>
+  </li>
+</script>
+<script src="bower_components/handlebars/handlebars.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

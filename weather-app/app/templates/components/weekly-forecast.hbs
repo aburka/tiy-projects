@@ -1,0 +1,13 @@
+<div class="weekly-forecast-container">
+    <ul>
+      {{#each weekly as |daily|}}
+      <li class="weekly-forecast">
+        <p class="weekly-forecast-date">{{daily.time}}</p>
+        <p class="weekly-temp">{{daily.temperatureMax}}&#176;</p>
+        <hr>
+        <p class="weekly-temp">{{daily.temperatureMin}}&#176;</p>
+        <p class="weekly-weather">{{daily.summary}}</p>
+      </li>
+      {{/each}}
+    </ul>
+  </div>

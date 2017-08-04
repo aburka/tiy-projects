@@ -1,0 +1,129 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+@import url('http://fonts.googleapis.com/css?family=Roboto:300,700');
+
+// Typography
+$base-font-family: 'Roboto', sans-serif;
+
+// Colors
+$blue: #067CBF;
+$dark-blue: #022940;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$very-light-gray: #fafafa;
+
+$base-font-color: $dark-blue;
+$base-background-color: $blue;
+
+body {
+  font-family: $base-font-family;
+  background-color: $base-background-color;
+  color: $base-font-color;
+}
+
+.application{
+  width: 800px;
+  margin: 0 auto;
+}
+
+//login
+
+.login-form-username,
+.message-input{
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 400px;
+  height: 40px;
+  font-family: $base-font-family;
+  border: 0;
+  padding: 10px;
+}
+
+.login-form-submit,
+.submit-message{
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 100px;
+  height: 40px;
+  color: $blue;
+  border: 0;
+  background-color: $dark-blue;
+  font-family: $base-font-family;
+}
+
+.login-form-submit:hover,
+.submit-message:hover{
+  transition: 0.2s all ease;
+  color: white;
+  background-color: $blue;
+}
+
+//chat
+
+.past-messages{
+  display: inline-block;
+  width: 600px;
+  background-color: $light-gray;
+}
+
+.message-input{
+  display: inline-block;
+  margin-top: 0;
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+}
+
+.submit-message{
+  display: inline-block;
+  width: 19%;
+  margin-left: 4px;
+}
+
+.past-messages-display{
+  display: inline-block;
+  width: 100%;
+  margin-top: 25px;
+  background-color: $light-gray;
+}
+
+.message-input-container{
+  margin-top: 15px;
+}
+
+ul{
+  padding-left: 10px;
+}
+
+.past-messages li{
+  list-style: none;
+  width: 775px;
+}
+
+.past-messages li::after{
+  content: " ";
+  display: block;
+  height: 1px;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.past-messages h3, h4, p{
+  margin: 5px 0;
+}
+
+.past-messages h3 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.past-messages h4 {
+  font-size: 12px;
+}
+
+.past-messages p {
+  font-size: 18px;
+}

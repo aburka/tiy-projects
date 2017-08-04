@@ -1,0 +1,199 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin border($border) {
+  -webkit-border: $border;
+     -moz-border: $border;
+      -ms-border: $border;
+          border: $border;
+}
+
+$font-stack: Arial, sans-serif;
+$border: 4px solid white;
+$box-shadow: 0px 5px 0px grey;
+
+body {
+  background-image: url("../images/bg.jpg");
+  background: cover;
+}
+
+header, section, article, footer {
+  @include outer-container (1027px);
+}
+
+hgroup {
+  float: right;
+}
+
+.facebook, .rss, .twitter, .youtube {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-right: 4px;
+  box-shadow: $box-shadow;
+}
+
+.facebook {
+  background-color: #445897;
+}
+
+.rss {
+  background-color: #ce8e42;
+}
+
+.twitter {
+  background-color: #698ec3;
+}
+
+.youtube {
+  background-color: #b63631;
+}
+
+nav {
+  display: inline-block;
+  width: 1027px;
+}
+ul {
+  list-style-type: none;
+  height: 41px;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  @include span-columns (3);
+  background-color: red;
+  height: 41px;
+  text-align: center;
+  padding-left: 0px;
+  font-family: $font-stack;
+  color: white;
+}
+
+li, .news, .lance, .rodney, .steve, .tommy, .board-design {
+  @include border (4);
+  box-shadow: $box-shadow;
+}
+
+.image-slider {
+  background-image: url("../images/top-image.png");
+  background-position: 25% 20%;
+  border: 8px solid white;
+  height: 358px;
+  margin: 15px auto;
+}
+
+.image-slider img{
+  margin: 50px 20px;
+}
+
+.news {
+  @include span-columns (4);
+  background-color: white;
+  padding: 30px;
+  height: 350px;
+}
+
+h2 {
+  font-family: $font-stack;
+  font-size: 1.75em;
+  font-weight: normal;
+  margin: 0;
+}
+
+h3 {
+  display: inline-block;
+  font-family: $font-stack;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+time {
+  font-family: $font-stack;
+  font-size: 1em;
+  line-height: 3em;
+  font-weight: lighter;
+  color: gray;
+}
+
+p {
+  font-family: $font-stack;
+  font-size: 0.75em;
+  line-height: 2.25em;
+}
+
+a {
+  font-family: $font-stack;
+  font-size: .75em;
+  text-decoration: none;
+  color: red;
+  display: block;
+  text-align: center;
+}
+
+.skateboarders {
+  margin: 25px auto;
+  position: relative;
+}
+
+.two-col {
+  @include span-columns(8);
+}
+
+.lance {
+  @include span-columns (4 of 8);
+  background-image: url("../images/sk8er-4.png");
+  background-position: right;
+  height: 234px;
+}
+
+.rodney {
+  @include span-columns (4 of 8);
+  background-image: url("../images/sk8er-3.png");
+  height: 234px;
+}
+
+.steve {
+  @include span-columns (8 of 8);
+  background-image: url("../images/sk8er-1.png");
+  background-position: 75%;
+  height: 234px;
+  width: 680px;
+  position: absolute;
+  top: 240px;
+}
+
+.tommy {
+  @include span-columns (4);
+  @include omega();
+  background-image: url("../images/sk8er-2.png");
+  background-position: right;
+  height: 475px;
+}
+
+.board-design {
+  background-color: white;
+  @include clearfix;
+}
+
+.board-design img{
+  margin: 15px 18px;
+}
+
+footer {
+  margin-top: 15px;
+  background-color: white;
+  @include clearfix;
+  box-shadow: $box-shadow;
+  padding: 15px;
+}

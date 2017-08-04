@@ -1,0 +1,20 @@
+<a href="{{url}}"><h2>{{title}}</h2></a>
+<p>{{tag}}</p>
+<a href="{{url}}"><p>{{url}}</p></a>
+<button name="edit" class="bookmark-edit">Edit</button>
+<button name="delete" class="bookmark-delete">Delete</button>
+
+<form class="bookmark-edit-form hidden">
+  <input class="bookmark-title" type="text" value="{{title}}">
+  <input class="bookmark-url" type="text" value="{{url}}">
+  <select class="bookmark-tag" type="text" value="tag">
+     <option value="pick one">Pick One</option>
+     <option value="brunch">Brunch</option>
+     <option value="appetizer">Appetizer</option>
+     <option value="entree">Entree</option>
+     <option value="side dish">Side Dish</option>
+     <option value="dessert">Dessert</option>
+   </select>
+  <input class="cancel-edit" type="reset" value="cancel">
+  <input type="submit" value="save">
+</form>

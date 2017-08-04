@@ -1,0 +1,23 @@
+{
+  "name": "3.4-etsy-recreation",
+  "version": "0.0.0",
+  "homepage": "https://github.com/aburka/3.4-etsy-recreation",
+  "authors": [
+    "Amy Burka <aburka@gmail.com>"
+  ],
+  "description": "recreation of etsy search results page",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~3.0.3",
+    "neat": "~1.7.2",
+    "json": "*"
+  }
+}

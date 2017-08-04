@@ -1,0 +1,105 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+$gutter: 0em;
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+$font-stack: $helvetica, sans-serif;
+$text-color: #ffffff;
+$font-size: 1.25em;
+$number-background-color: linear-gradient(to bottom, #FCFCFF, #BDBDBF);
+$operator-background-color: linear-gradient(to bottom, #FF8C00, #BF6900);
+$equals-background-color: linear-gradient(to bottom, #A5FF46, #7CBF35);
+$clear-background-color: linear-gradient(to bottom, #FF351E, #BF2816);
+
+$hover-number-color: linear-gradient(to bottom, #BDBDBF, #7E7E7F);
+$hover-operator-color: linear-gradient(to bottom, #BF6900, #7F4600);
+$hover-equals-color: linear-gradient(to bottom, #7CBF35, #527F23);
+$hover-clear-color: linear-gradient(to bottom, #BF2816, #7F1B0F);
+
+$active-number-color: linear-gradient(to bottom, #BDBDBF, #FCFCFF);
+$active-operator-color: linear-gradient(to bottom, #BF6900, #FF8C00);
+$active-equals-color: linear-gradient(to bottom, #7CBF35, #A5FF46);
+$active-clear-color: linear-gradient(to bottom, #BF2816, #FF351E);
+
+
+$border: 1px solid white;
+$text-align: center;
+$text-decoration: none;
+$text-hover-shadow: 0 -1px 1px #faf9f9;
+
+body {
+  @include outer-container (12);
+  margin-top: 25px;
+}
+
+.row {
+  @include span-columns (4);
+  @include shift (4);
+  font-family: $font-stack;
+  color: $text-color;
+}
+
+button {
+  @include span-columns (1 of 4);
+  font-size: $font-size;
+  height: 100px;
+}
+
+.number {
+  background: $number-background-color;
+  border: $border;
+  text-align: $text-align;
+  text-decoration: $text-decoration;
+}
+
+.number:hover{
+  background: $hover-number-color;
+}
+
+.number:active{
+  background: $active-number-color;
+}
+
+.operator {
+  background: $operator-background-color;
+  border: $border;
+  text-align: $text-align;
+  text-decoration: $text-decoration;
+}
+
+.operator:hover{
+  background: $hover-operator-color;
+}
+
+.operator:active{
+  background: $active-operator-color;
+}
+
+.clear {
+  background: $clear-background-color;
+  border: $border;
+  text-align: $text-align;
+  text-decoration: $text-decoration;
+}
+
+.clear:hover{
+  background: $hover-clear-color;
+}
+
+.clear:active{
+  background: $active-clear-color;
+}
+
+.equals {
+  background: $equals-background-color;
+  border: $border;
+  text-align: $text-align;
+  text-decoration: $text-decoration;
+}
+
+.equals:hover{
+  background: $hover-equals-color;
+}
+
+.equals:active{
+  background: $active-equals-color;
+}

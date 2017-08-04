@@ -1,0 +1,92 @@
+// Typography
+$base-font-family: $helvetica;
+
+// Colors
+$blue: #3d84bf;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$very-light-gray: #fafafa;
+
+$base-font-color: $dark-gray;
+
+//user side panel
+
+.user {
+  float: left;
+  width: 232px;
+  margin-right: 20px;
+}
+
+.user-avatar {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.user h2 {
+  font-size: 26px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.user h4 {
+  margin: 0 0 15px 0;
+  color: gray;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+/* hr {
+  background-color: #e5e5e5;
+} */
+
+.user a {
+  text-decoration: none;
+}
+
+.user-stats{
+  display: inline-block;
+  min-width: 30%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.user-stats h2{
+  color: $blue;
+}
+
+.user-stats p{
+  font-size: 12px;
+  color: $medium-gray;
+  margin: 0;
+}
+
+.user-stats p:hover{
+  color: $blue;
+}
+
+
+.joined {
+  display: inline-block;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.octicon-clock{
+  margin-right: 5px;
+  color: $medium-gray;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: $light-gray;
+}
+
+img.js-logo{
+  width: 42px;
+  height: 42px;
+  border-radius: 3px;
+}

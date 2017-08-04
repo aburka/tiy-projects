@@ -1,0 +1,171 @@
+// Typography
+$base-font-family: $helvetica;
+
+// Colors
+$blue: #3d84bf;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$very-light-gray: #fafafa;
+
+$base-font-color: $dark-gray;
+
+//tabs
+
+.nav-tabs{
+  display: block;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-tab {
+  display: inline-block;
+  margin-bottom: -1px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+  text-decoration: none;
+}
+
+.nav-tab.selected{
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #e5e5e5;
+  border-bottom: 1px solid white;
+}
+
+.nav-tab > .octicon{
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+
+//edit profile button
+
+.edit-button{
+  display: inline-block;
+  float: right;
+  height: 26px;
+  padding: 2px 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  background-image: linear-gradient(#f7f9f9 , #e0e0e0);
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+
+.edit-button > .octicon{
+  margin-right: 5px;
+}
+
+
+//filter bar
+
+.filter-bar {
+  display: block;
+  height: 65px;
+  width: 730px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+//new repo button
+
+.new-repo-button{
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+  padding: 9px;
+  border-radius: 3px;
+  background-color: rgb(96, 176, 68);
+  background-image: linear-gradient(rgb(138, 221, 109), rgb(96, 176, 68));
+  border-bottom-color: rgb(92, 169, 65);
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+}
+
+.new-repo-button > .octicon{
+  margin-right: 5px;
+}
+
+.filter{
+    width: 260px;
+    height: 18px;
+    vertical-align: middle;
+    padding: 16px 7px;
+}
+
+.search-button{
+  display: inline-block;
+  height: 35px;
+  padding: 8px 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  background-image: linear-gradient(#f7f9f9 , #e0e0e0);
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+  vertical-align: middle;
+}
+
+.filters{
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+}
+
+.filters a{
+  text-decoration: none;
+  color: $blue;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.filter-active a{
+  color: black;
+  font-weight: bold;
+}
+
+//repo listing
+
+li{
+  padding: 30px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+li h2{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+li p{
+  margin-top: 5px;
+  font-size: 14px;
+  color: $medium-gray;
+}
+
+li a {
+  text-decoration: none;
+  color: $blue;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+.repo-stats a {
+  font-size: 14px;
+  color: $medium-gray;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+li a:hover{
+  color: $blue;
+}

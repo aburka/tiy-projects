@@ -1,0 +1,20 @@
+<div>
+  <img src="{{sound.artwork_url}}" alt="{{sound.title}}" class="album-art"/>
+  {{#if isPlaying}}
+    <a href="#"{{action 'pause'}}>Pause</a>
+  {{else}}
+    <a href="#"{{action 'play'}}>Play</a>
+  {{/if}}
+</div>
+<div>
+  <p class="replay"{{action "replay"}}>Replay</p>
+  <p class="artist">{{sound.user.username}}</p>
+  <p class="title">{{sound.title}}</p>
+  <p class="volume">Volume</p>
+  <div id="elapsed-time">Immaslide</div>
+</div>
+<div>
+  <a href="http://soundcloud.com">Soundcloud</a>
+  <p class="plays">{{sound.playback_count}} plays</p>
+  <p class="loves">{{sound.favoritings_count}} loves</p>
+</div>

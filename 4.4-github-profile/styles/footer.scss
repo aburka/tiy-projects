@@ -1,0 +1,63 @@
+// Typography
+$base-font-family: $helvetica;
+
+// Colors
+$blue: #3d84bf;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$very-light-gray: #fafafa;
+
+$base-font-color: $dark-gray;
+
+footer {
+  position: relative;
+  margin-top: 80px;
+  padding-top: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #777;
+  border-top: 1px solid #eee;
+}
+
+.footer-container{
+  margin: 0 auto;
+  width: 984px;
+}
+
+footer p{
+  display: inline-block;
+}
+
+footer a{
+  display: inline-block;
+  color: $blue;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+.footer-logo > a{
+  color: $light-gray;
+}
+
+.footer-logo > a:hover{
+  color: $medium-gray;
+}
+
+.footer-left{
+  float: left;
+}
+
+.footer-logo{
+  position: absolute;
+  left: 50%;
+}
+
+.footer-right{
+  margin-top: 12px;
+  float: right;
+}

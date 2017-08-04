@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+$font: Roboto, sans-serif;
+
+$red: #ff4848;
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.add-image{
+  display: block;
+  width: 100%;
+  position: fixed;
+  background-color: #ff4848;
+  padding: 20px;
+}
+
+.add-image>a{
+  font-family: $font;
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.images-feed-container{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #d3d3d3;
+  border: 1px solid #aaa9a9;
+  padding: 75px 15px 15px 15px;
+}
+
+.image-card{
+  max-width: 80%;
+  margin: 20px auto;
+  border-right: 1px solid #bfbebe;
+  border-radius: 2px;
+  background-color: white;
+  list-style: none;
+  box-shadow: 0px 0px 4px #bfbebe;
+}
+
+.image-card>a{
+  text-decoration: none;
+  color: black;
+}
+
+.image-card img{
+  width: 100%;
+}
+
+.image-caption{
+  font-family: $font;
+  font-size: 1em;
+  font-weight: lighter;
+  margin: 0;
+  padding: 15px;
+}
+
+
+/* image show component */
+
+.image-show-container{
+  margin: 50px auto;
+  width: 500px;
+  background-color: white;
+  box-shadow: 0px 0px 4px #bfbebe;
+  border-radius: 2px;
+}
+
+.image-show{
+}
+
+.image-show img{
+  width: 100%;
+}
+
+.image-show-caption{
+  font-family: $font;
+  font-size: 1em;
+  font-weight: lighter;
+  margin: 0;
+  padding: 15px;
+}
+
+button, .back{
+  padding: 3px 10px;
+  background-color: #ff4848;
+  border: none;
+  font-family: $font;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1em;
+  color: white;
+}
+/* add image */
+.add-image-container{
+  margin: 50px auto;
+  max-width: 700px;
+}
+
+.add-image-container>input{
+  margin: 25px;
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.save {
+  display: inline-block;
+  width: 100px;
+  padding: 10px 15px;
+  background-color: $red;
+  border: none;
+  font-family: $font;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1em;
+  color: white;
+}
+
+/* landing page */
+.landing-container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.fb-signup,
+.email-signup{
+  margin: 30px;
+  width: 90%;
+  padding: 15px;
+}
+
+p.landing-link{
+  text-align: center;
+  font-family: $font;
+  color: $red;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+/* user-create */
+
+.user-login,
+.user-new{
+  margin: 50px auto;
+  max-width: 700px;
+  padding: 50px;
+  background-color: $red;
+  font-family: $font;
+}
+
+.user-login>input,
+.user-new>input{
+  margin: 25px;
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.user-login>button,
+.user-create>button {
+  background-color: white;
+  color: $red;
+  width: 100px;
+  height: 33px;
+  margin: 25px;
+}
+
+/* user-show */
+.user-welcome-container{
+  margin: 0 auto;
+  width: 400px;
+}
+
+p.user-welcome {
+  text-align: center;
+  font-family: $font;
+  color: $red;
+  font-size: 3em;
+}
+
+p.user-welcome-link{
+  text-align: center;
+  font-family: $font;
+  color: $red;
+  font-size: 1em;
+  text-decoration: none;
+}

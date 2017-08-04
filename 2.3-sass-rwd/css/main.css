@@ -1,0 +1,207 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  background-image: url("../images/bg.jpg");
+  background: cover; }
+
+header, section, article, footer {
+  max-width: 1027px;
+  margin-left: auto;
+  margin-right: auto; }
+  header:after, section:after, article:after, footer:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+hgroup {
+  float: right; }
+
+.facebook, .rss, .twitter, .youtube {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-right: 4px;
+  box-shadow: 0px 5px 0px grey; }
+
+.facebook {
+  background-color: #445897; }
+
+.rss {
+  background-color: #ce8e42; }
+
+.twitter {
+  background-color: #698ec3; }
+
+.youtube {
+  background-color: #b63631; }
+
+nav {
+  display: inline-block;
+  width: 1027px; }
+
+ul {
+  list-style-type: none;
+  height: 41px;
+  padding-left: 0px; }
+
+li {
+  display: inline-block;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  background-color: red;
+  height: 41px;
+  text-align: center;
+  padding-left: 0px;
+  font-family: Arial, sans-serif;
+  color: white; }
+  li:last-child {
+    margin-right: 0; }
+
+li, .news, .lance, .rodney, .steve, .tommy, .board-design {
+  -webkit-border: 4;
+  -moz-border: 4;
+  -ms-border: 4;
+  border: 4;
+  box-shadow: 0px 5px 0px grey; }
+
+.image-slider {
+  background-image: url("../images/top-image.png");
+  background-position: 25% 20%;
+  border: 8px solid white;
+  height: 358px;
+  margin: 15px auto; }
+
+.image-slider img {
+  margin: 50px 20px; }
+
+.news {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  background-color: white;
+  padding: 30px;
+  height: 350px; }
+  .news:last-child {
+    margin-right: 0; }
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: normal;
+  margin: 0; }
+
+h3 {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: white; }
+
+time {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  line-height: 3em;
+  font-weight: lighter;
+  color: gray; }
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 0.75em;
+  line-height: 2.25em; }
+
+a {
+  font-family: Arial, sans-serif;
+  font-size: .75em;
+  text-decoration: none;
+  color: red;
+  display: block;
+  text-align: center; }
+
+.skateboarders {
+  margin: 25px auto;
+  position: relative; }
+
+.two-col {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .two-col:last-child {
+    margin-right: 0; }
+
+.lance {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  background-image: url("../images/sk8er-4.png");
+  background-position: right;
+  height: 234px; }
+  .lance:last-child {
+    margin-right: 0; }
+
+.rodney {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  background-image: url("../images/sk8er-3.png");
+  height: 234px; }
+  .rodney:last-child {
+    margin-right: 0; }
+
+.steve {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 100%;
+  background-image: url("../images/sk8er-1.png");
+  background-position: 75%;
+  height: 234px;
+  width: 680px;
+  position: absolute;
+  top: 240px; }
+  .steve:last-child {
+    margin-right: 0; }
+
+.tommy {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  background-image: url("../images/sk8er-2.png");
+  background-position: right;
+  height: 475px; }
+  .tommy:last-child {
+    margin-right: 0; }
+
+.board-design {
+  background-color: white; }
+  .board-design:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.board-design img {
+  margin: 15px 18px; }
+
+footer {
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: 0px 5px 0px grey;
+  padding: 15px; }
+  footer:after {
+    content: "";
+    display: table;
+    clear: both; }

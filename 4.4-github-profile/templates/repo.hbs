@@ -1,0 +1,10 @@
+{{#each this}}
+  <li>
+  <div class="repo-stats">
+    <a href="{{stargazers_count}}"><span class="octicon octicon-star"></span>{{stargazers_count}}</a>
+    <a href="{{forks_count}}"><span class="octicon octicon-git-branch"></span>{{forks_count}}</a>
+  </div>
+  <a href="{{html_url}}"><h2>{{name}}</h2></a>
+  <p>{{pushed_at}}</p>
+  </li>
+{{/each}}

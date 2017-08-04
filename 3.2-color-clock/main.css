@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0 auto;
+  width: 250px;
+  background: #440951;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  height: 100px;
+  margin-top: -50px;
+  font-family: 'helvetica', sans-serif;
+  font-size: 3em;
+  color: white;
+}
+
+.line {
+  background-color: white;
+  height: 1px;
+  margin: 0 auto;
+}

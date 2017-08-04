@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+body{
+  background-image: url('clouds.gif');
+  font-size: 62.5%;
+}
+
+h3{
+  font-family: Roboto;
+  color: white;
+  font-size: 2.4em;
+  text-align: center;
+  margin: 0;
+}
+
+p{
+  font-family: Roboto;
+  color: white;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+ul{
+  margin: 10px 10px;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.link-to-weather{
+  margin: 200px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.link-to-weather a{
+  font-family: Roboto;
+  font-size: 4em;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.app-container{
+  margin: 50px auto;
+  max-width: 900px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.current-weather-container{
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  width: 400px;
+}
+
+.current-location{
+  margin: 10px;
+}
+
+.current-temp{
+  font-size: 100px;
+  margin: 10px;
+}
+
+.current-weather{
+  font-size: 3em;
+  margin: 0 10px;
+}
+
+.hourly-weather-container{
+  width: 400px;
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+}
+
+.hourly-header>h3{
+  margin: 10px;
+}
+
+.hourly-time,
+.hourly-temp,
+.hourly-weather{
+  display: inline-block;
+  width: 150px;
+  font-size: 1.8em;
+  line-height: 10px;
+}
+
+.hourly-temp{
+  width: 50px;
+}
+
+.weekly-forecast-container{
+  width: 100%;
+  display: inline-block;
+}
+
+.weekly-forecast{
+  width: 12%;
+  display: inline-block;
+  margin: 8px;
+  vertical-align: top;
+}
+
+.weekly-temp{
+  font-size: 4em;
+  margin: 0;
+}

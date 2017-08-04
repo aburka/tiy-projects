@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body{
+  background-image: url("assets/images/bg.jpg");
+  background-size:100%;
+  background-repeat:no-repeat;
+  text-align: center;
+}
+header {
+  background-color: #7F7F7F;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+/*
+container*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container{
+  margin: 0 auto 30px auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/*
+typography*/
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 44px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom:22px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #5C5C5C;
+}
+/*
+button
+*/
+.btn{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  background-color: #CACBCC;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+.btn-container {
+  margin: 0 auto 30px auto;
+  width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display:block;
+}
+/*
+nav
+*/
+.nav {
+  text-align: right;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  margin: 5px;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: center;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+.stripe {
+  display: block;
+  margin-top:75px;
+  padding:25px;
+}
+img.icon {
+  width:25px;
+  height:25px;
+}

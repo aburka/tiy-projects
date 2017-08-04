@@ -1,0 +1,12 @@
+<div class="hourly-weather-container">
+  <h3 class="hourly-header">Hourly Forecast</h3>
+  <ul>
+    {{#each hourlyArray as |hourly|}}
+      <li class="hourly">
+        <p class="hourly-time">{{hourly.time}}</p>
+        <p class="hourly-temp">{{hourly.temperature}}&#176;</p>
+        <p class="hourly-weather">{{hourly.summary}}</p>
+      </li>
+    {{/each}}
+  </ul>
+</div>

@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  max-width: 12;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px; }
+  body::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.row {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 33.33333%;
+  margin-left: 33.33333%;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
+  color: #ffffff; }
+  .row:last-child {
+    margin-right: 0; }
+
+button {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 25%;
+  font-size: 1.25em;
+  height: 100px; }
+  button:last-child {
+    margin-right: 0; }
+
+.number {
+  background: linear-gradient(to bottom, #FCFCFF, #BDBDBF);
+  border: 1px solid white;
+  text-align: center;
+  text-decoration: none; }
+
+.number:hover {
+  background: linear-gradient(to bottom, #BDBDBF, #7E7E7F); }
+
+.number:active {
+  background: linear-gradient(to bottom, #BDBDBF, #FCFCFF); }
+
+.operator {
+  background: linear-gradient(to bottom, #FF8C00, #BF6900);
+  border: 1px solid white;
+  text-align: center;
+  text-decoration: none; }
+
+.operator:hover {
+  background: linear-gradient(to bottom, #BF6900, #7F4600); }
+
+.operator:active {
+  background: linear-gradient(to bottom, #BF6900, #FF8C00); }
+
+.clear {
+  background: linear-gradient(to bottom, #FF351E, #BF2816);
+  border: 1px solid white;
+  text-align: center;
+  text-decoration: none; }
+
+.clear:hover {
+  background: linear-gradient(to bottom, #BF2816, #7F1B0F); }
+
+.clear:active {
+  background: linear-gradient(to bottom, #BF2816, #FF351E); }
+
+.equals {
+  background: linear-gradient(to bottom, #A5FF46, #7CBF35);
+  border: 1px solid white;
+  text-align: center;
+  text-decoration: none; }
+
+.equals:hover {
+  background: linear-gradient(to bottom, #7CBF35, #527F23); }
+
+.equals:active {
+  background: linear-gradient(to bottom, #7CBF35, #A5FF46); }

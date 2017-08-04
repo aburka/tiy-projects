@@ -1,0 +1,14 @@
+<div class="landing-container">
+
+
+<button type="button" name="FB-signup" class="fb-signup">Sign up with Facebook</button>
+
+{{#link-to 'users.create'}}
+  <button type="button" name="email-signup" class="email-signup">Sign up with Email</button>
+{{/link-to}}
+
+{{#link-to 'sessions.create'}}
+  <p class="landing-link">Already have an account? Log in here.</p>
+{{/link-to}}
+</div>
+{{outlet}}

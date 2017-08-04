@@ -1,0 +1,15 @@
+<div class="add-image">
+  {{link-to "+" 'images.create'}}
+</div>
+<ul class="images-feed-container">
+{{#each model as |image|}}
+  <li class="image-card">
+    {{#link-to 'images.show' image}}
+      <div>
+        <img src="{{image.url}}" />
+      </div>
+      <p class="image-caption">{{image.caption}}</p>
+    {{/link-to}}
+  </li>
+{{/each}}
+</ul>

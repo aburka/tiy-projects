@@ -1,0 +1,47 @@
+## GOAL - Display data from a collection on the DOM
+- [X] Move task list view html to hbs template
+- [X] Render task list view template to dom
+- [X] Move task item view html to hbs template
+- [X] Render task item view template to dom
+- [X] Define a TaskListView constructor, including initialize and render
+- [X] Pass task list view template to TaskListView and render
+- [X] Import & instantiate TaskListView in main.js
+- [X] Create JSON file of todo items
+- [X] Define Task model & Task collection
+- [X] Import Task model & collection into main.js
+- [X] Instantiate model & collection
+- [X] Pass model to TaskListView
+- [X] Console.log TaskListView with model
+- [X] Define TaskItemView constructor, including initialize and render
+- [X] Pass task item view template to TaskItemView and render
+- [X] Import & instantiate TaskItemView in main.js
+- [X] Pass collection to TaskItemView
+- [X] Console.log TaskItemView with collection
+- [X] Add child view code to TaskItemView
+- [X] Passed model and collection to wrong views: Switch them
+- [X] Remove toJSON from list view
+- [X] Remove renderChildren from item view
+- [X] Add toJSON to item view
+- [X] console log corrected list and item views
+- [X] Write promise in main js to fetch collection
+- [X] Add renderChildren functions to list view (which will render the individual children)
+- [X] Edit mainjs render function
+- [X] import TaskItemView into TaskListView
+- [X] Move renderChildren back to TaskListView
+- [X] Add toJSON back to TaskItemView
+- [X] Add dynamic handlebars to hbs templates
+- [X] Add ID to Item View
+- [X] Add ID and tagName to List view
+- [X] Correct JSON file
+- [X] Correct ID and tagNames
+- [X] Corrected HBS templates
+- [X] Call toJSON so it actually works.
+
+## GOAL: type a task in the input, have it appear in the to-do list.
+- [ ] Create new template for header
+- [ ] Render new template in DOM
+- [ ] Create event listener for 'submit input'
+- [ ] Prevent Default on event
+- [ ] console.log something on event firing
+- [ ] console.log contents of input on event firing
+- [ ] Add contents of event to collection on event firing

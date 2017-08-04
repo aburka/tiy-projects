@@ -1,0 +1,7 @@
+<form class="user-new">
+  {{input placeholder="E-mail" type="email" value=model.username}}
+  {{input placeholder="Password" type="password" value=model.password}}
+  {{input placeholder="First Name" type="firstName" value=model.firstName}}
+  {{input placeholder="Last Name" type="lastName" value=model.lastName}}
+  <button {{action 'create'}}>Log In</button>
+</form>

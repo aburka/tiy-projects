@@ -1,0 +1,65 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+// Typography
+$base-font-family: $helvetica;
+
+// Colors
+$blue: #477dca;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$very-light-gray: #fafafa;
+$light-green: #00BF44;
+$dark-green: #007F2E;
+
+$base-font-color: $dark-gray;
+$base-background-color: $very-light-gray;
+
+body {
+  font-family: $base-font-family;
+  background-color: $base-background-color;
+  color: $base-font-color;
+}
+
+.container {
+  width: 400px;
+  margin: 15px auto;
+  border: 2px solid black;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 15px 0 15px 15px;
+  width: 396px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  @include background-image(linear-gradient(top, $dark-gray, $medium-gray));
+}
+
+h1:hover {
+  @include background-image(linear-gradient(top, $light-green, $dark-green));
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 5px 10px;
+  color: $dark-gray;
+}
+
+li:hover {
+  background-color: $medium-gray;
+  color: white;
+}
+
+li::after{
+  content: "";
+  border-bottom-color: $dark-gray;
+}

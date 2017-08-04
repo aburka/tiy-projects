@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+.clearfix {
+  overflow: auto;
+}
+body {
+  width: 890px;
+  margin: 0 auto;
+}
+aside {
+  float: left;
+  width: 167px;
+  height: 600px;
+  margin-top: 49px;
+  border-right: 10px solid #B4DBF3;
+}
+p {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 14.3999px;
+  color: #C9D5DC;
+  text-align: right;
+  letter-spacing: -.01em;
+  line-height: 0px;
+}
+h3 {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: right;
+  line-height: 0px;
+  color: #7CC1E7;
+  margin-top: 25px;
+}
+img {
+  display: inline-block;
+  float: right;
+  background-color: #57A6D3;
+  width: 50px;
+  border-radius: 50%;
+  border: 7px solid #B4DBF3;
+  margin-top:-18px;
+  margin-left: 15px;
+  margin-right: -30px;
+}
+.date {
+  width: 135px;
+  height: 340px;
+  padding-right: 15px;
+}
+section{
+  float:right;
+  width:690px;
+}
+hr {
+  size: 1px;
+  color: white;
+}
+h1 {
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 25px;
+  color: white;
+  letter-spacing: -.01em;
+}
+section p{
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  color: white;
+  text-align: left;
+  padding top: 30px;
+  letter-spacing: -.01em;
+}
+.rice {
+  width: 700px;
+  height: 338px;
+  background-color: #79C0E7;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  padding-right: 35px;
+  margin: 49px 15px 15px 10px;
+  border-radius: 4px;
+}
+.greens {
+  width: 700px;
+  height: 246px;
+  background-color: #4796C4;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  padding-right: 35px;
+  margin: 0px 15px 15px 10px;
+  border-radius: 4px;
+}
+.arrow-1 {
+  float: left;
+	width: 0;
+	height: 0;
+  margin-top: 60px;
+  margin-bottom: 310px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right:10px solid #79C0E7;
+}
+.arrow-2 {
+  float: left;
+	width: 0;
+	height: 0;
+  margin-top: 12px;
+  margin-bottom: 310px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right:10px solid #4796C4;
+}

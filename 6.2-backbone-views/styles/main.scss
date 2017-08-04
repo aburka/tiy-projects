@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+// Typography
+$base-font-family: 'Roboto', sans-serif;
+
+// Colors
+$blue: #477dca;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$very-light-gray: #fafafa;
+
+$base-font-color: $dark-gray;
+$base-background-color: $very-light-gray;
+
+body {
+  font-family: $base-font-family;
+  background-color: $base-background-color;
+  color: $base-font-color;
+}
+
+button {
+  display: block;
+  margin: 25px auto;
+  width: 200px;
+  height: 100px;
+  border: 1px solid $medium-gray;
+  border-radius: 10px;
+  font-family: $base-font-family;
+  font-size: 24px;
+  background-image: linear-gradient($very-light-gray 0%, $light-gray 100%);
+}
+
+button:hover{
+  border: 1px solid $dark-gray;
+}
+
+button:active {
+  border: 1px solid $dark-gray;
+  box-shadow: inset 0px 1px 5px $medium-gray;
+}
+
+button:focus{
+  outline: none;
+}

@@ -1,0 +1,11 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+.calculator {
+  @include outer-container (300px);
+}
+
+.keypad-button {
+  @include span-columns(3);
+  @include omega(4n);
+}

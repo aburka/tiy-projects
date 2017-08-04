@@ -1,0 +1,92 @@
+// Typography
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,700);
+$font-weight: 300;
+
+// Colors
+$dark-blue: #293444;
+$blue: #477dca;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$very-light-gray: #fafafa;
+
+$base-font-color: $dark-gray;
+$base-background-color: $very-light-gray;
+
+//group titles
+h1 {
+  display: inline-block;
+  color: $base-font-color;
+  font-family: Roboto, 'sans serif';
+  font-size: 18px;
+  font-weight: $font-weight;
+}
+
+.group-name{
+  margin-left: 10px;
+
+}
+
+.header-title{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+//menu item, subtotal
+h2 {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: $dark-blue;
+  font-family: Roboto, 'sans serif';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+//price
+h3 {
+  margin: 5px 0;
+  color: $blue;
+  font-family: Roboto, 'sans serif';
+  font-size: 14px;
+  font-weight: $font-weight;
+}
+
+//description
+p {
+  margin: 5px 0;
+  color: $medium-gray;
+  font-family: Roboto, 'sans serif';
+  font-weight: $font-weight;
+  line-height: 1.4em;
+}
+
+//font awesome icons: x, down carat, plus, etc.
+.fa {
+  color: $base-font-color;
+  font-size: 16px;
+}
+
+.fa:hover{
+  color: $blue;
+}
+
+//List styles
+ul {
+  margin: 0;
+  padding: 0 0 0 25px;
+}
+
+li {
+  list-style: none;
+  padding: 10px 10px 10px 0;
+}
+
+/*
+li::after{
+  content: "";
+  display: block;
+  height: 1px;
+  width: 98%;
+  background-color: $light-gray;
+}
+ */
